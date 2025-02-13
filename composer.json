@@ -1,0 +1,19 @@
+{
+    "name": "anggars/composer_library",
+    "description": "belajar composer library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Anggars\\ComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "anggars19",
+            "email": "anggariyandisaputra19@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">8.0"
+    }
+}
