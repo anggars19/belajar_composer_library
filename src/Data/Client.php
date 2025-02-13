@@ -6,7 +6,7 @@ class Client
 {
     public function __construct(private string $name) {}
 
-    public function sayHello(string $name): string
+    public function sayHello(string $name="guest"): string
     {
         return "hello $name, my name $this->name";
     }
